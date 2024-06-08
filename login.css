@@ -1,0 +1,160 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    background: linear-gradient(150deg, #f5b6b6 1%,#FF4286);
+    align-items: center;
+}
+
+#container-branco {
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+#infos-login {
+display: grid;
+margin-left: 80px;
+}
+.login {
+    font-family: "Convergence", sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+
+}
+
+#email,#senha {
+display: block;
+border-radius: 50px;
+border: none;
+background-color: #EBEBEB;
+outline: none;
+height: 50px;
+padding-left: 10px;
+max-width: 800px;
+margin-right: 20px;
+}
+
+#email {
+margin-top: 20px;
+
+}
+
+#senha {
+margin-top: 15px;
+
+}
+span {
+font-size: 0.9rem;
+margin-left: 5px;
+font-family: "Fira Sans", sans-serif;
+}
+.esqueci-senha {
+font-size: 0.9rem;
+text-decoration: none;
+color: #979797;
+margin-right: 25px;
+
+}
+
+.esqueci-senha:hover {
+color: #1f1f1f;
+
+}
+p {
+color: white;
+font-family: "Concert One", sans-serif;
+font-size: 1.2rem;
+}
+
+
+#credenciais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    max-width: 800px;
+
+}
+#credenciais-check {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+#check {
+border: none;
+outline: none;
+box-shadow: none;
+height: 15px;
+}
+
+.centralizar-botao {
+display: grid;
+justify-items: center;
+margin-top: 30px;
+}
+
+.botao-entrar {
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(to bottom, #f5b6b6 0.5%,#FF4286);
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.5px;
+    font-family: "Fira Sans", sans-serif;
+    
+}
+
+.botao-entrar:hover,.botao-cadastro:hover {
+    background: linear-gradient(to bottom, #f5b6b6 0.5%,#fa186b);
+cursor: pointer;
+}
+
+.titulo-branco {
+    font-family: "Croissant One", serif;
+color: white;
+font-size: 3rem;
+}
+
+
+
+#infos-cadastro{
+font-size: 0.7rem;
+justify-items: center;
+display: grid;
+gap: 20px;
+
+}
+
+.botao-cadastro {
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(to bottom, #f5b6b6 0.5%,#FF4286);
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.5px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1rem;
+
+}
+
+.mudarParacadastro{
+    text-decoration: none;
+    color: white;
+    
+
+}

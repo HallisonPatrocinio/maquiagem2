@@ -1,0 +1,135 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+.svg{
+grid-row: 1;
+grid-column: 1;
+}
+
+a{
+text-decoration: none;
+color: white;
+font-family: arial;
+display: grid;
+grid-template-columns: 40px 40px;
+margin-top: 20px;
+margin-left: 20px;
+align-items: center;
+justify-items: center;
+}
+
+body {
+background: linear-gradient(150deg,#FB5F5F,#FF95D4);
+height: 100vh;
+}
+
+h1 {
+display: grid;
+justify-content: center;
+font-family: "Chocolate Classical Sans", sans-serif;
+color: white;
+margin-top: 30px;
+}
+
+h2 {
+    font-family: "Convergence", sans-serif;
+color: white;
+}
+
+input {
+height: 40px;
+border-radius: 10px;
+border: none;
+padding-left: 10px;
+
+}
+
+#countainer {
+display: grid;
+justify-content: center;
+}
+
+
+.pessoais{
+display: grid;
+grid-template-columns: 350px 350px;
+margin-top: 50px;
+gap: 20px;
+}
+
+#data-nasc {
+grid-column: 2;
+grid-row: 1;
+
+}
+#nome{
+grid-column: 1;
+
+}
+
+.login,.endereço {
+    margin-top: 50px;
+    
+}
+
+#email,#texto-endereço {
+display: block;
+width: 711px;
+}
+
+.senha,#numero-casa{
+    display: inline-block;
+width: 340px;
+margin-top: 20px;
+}
+.confirmar,#cep  {
+    margin-left: 15px;
+    width: 340px;
+}
+
+
+
+#texto-endereço,#email {
+margin-top: 10px;
+
+}
+
+
+button {
+height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.centralizar-botao {
+display: flex;
+gap: 40px;
+justify-content: center;
+}
+
+#botao-escuro {
+    background: linear-gradient(to bottom,#FFC6C6 1%,#f3015a);
+
+}
+
+#botao-claro {
+    background: linear-gradient(to bottom,#fab8b8 1%,#fd307b);
+
+}
+
+
+#botao-escuro:hover {
+    background: linear-gradient(to bottom,#FFC6C6 1%,#ca024b);
+cursor: pointer;
+}
+
+#botao-claro:hover {
+    background: linear-gradient(to bottom,#FFC6C6 1%,#fd1268);
+cursor: pointer;
+}
