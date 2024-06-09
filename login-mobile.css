@@ -22,6 +22,15 @@ text-align: center;
 
 }
 
+
+@media (max-width:857px) {
+    .titulo-branco {
+        font-size: 2rem;
+        text-align: center;
+        }
+
+}
+
 @media (max-width:428px) {
     .botao-cadastro,.botao-entrar{
         width: 90px;
@@ -29,6 +38,45 @@ text-align: center;
         font-size: 0.6rem;
     }
 
- 
+ .login{
+font-size: 1rem;
+
+ }
+ .titulo-branco {
+    font-size: 1rem;
+    text-align: center;
+    }
+    
+
+ #infos-login {
+    display: grid;
+    margin-left: 20px;
+    }
+
+}
+
+@media (max-width:730px) {
+
+#infos-login {
+margin-left: 10px;
+
+}
+}
+@media (max-height:366px) {
+#background {
+height: 100%;
+
+}
+
+
+}
+
+@media (max-height:336px) {
+    #container {
+
+        
+        
+}
+
 
 }

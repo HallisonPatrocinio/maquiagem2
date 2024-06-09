@@ -148,10 +148,10 @@ button {
         
         }
         
-        body {
-            background: linear-gradient(to left,#FC6975,#FC6975);
-
-        }
+      body {
+        height: 100%;
+    
+    }
       
           
 }
