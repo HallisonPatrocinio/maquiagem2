@@ -71,12 +71,11 @@ height: 100%;
 
 }
 
-@media (max-height:336px) {
-    #container {
-
+@media (max-width:336px) {
+  
+    #infos-login {
+        margin-left: 0px;
         
-        
-}
-
+        }
 
 }
