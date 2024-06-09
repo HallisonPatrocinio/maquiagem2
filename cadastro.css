@@ -4,132 +4,155 @@ margin: 0px;
 }
 
 .svg{
-grid-row: 1;
-grid-column: 1;
-}
+    grid-row: 1;
+    grid-column: 1;
+    }
 
-a{
-text-decoration: none;
-color: white;
-font-family: arial;
-display: grid;
-grid-template-columns: 40px 40px;
-margin-top: 20px;
-margin-left: 20px;
-align-items: center;
-justify-items: center;
-}
+    body {
+        background: linear-gradient(150deg,#FB5F5F,#FF95D4);
+        height: 100vh;
+        }
 
-body {
-background: linear-gradient(150deg,#FB5F5F,#FF95D4);
-height: 100vh;
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: arial;
+        display: grid;
+        grid-template-columns: 40px 40px;
+        margin-top: 20px;
+        margin-left: 20px;
+        align-items: center;
+        justify-items: center;
+        }
+
+#geral {
+    display: grid;
+    justify-items: center;
+    
 }
 
 h1 {
+    display: grid;
+    justify-content: center;
+    font-family: "Chocolate Classical Sans", sans-serif;
+    color: white;
+    margin-top: 30px;
+    }
+.dados {
 display: grid;
-justify-content: center;
-font-family: "Chocolate Classical Sans", sans-serif;
-color: white;
-margin-top: 30px;
+grid-template-columns: 1fr 1fr;
+
+
 }
+
+
 
 h2 {
     font-family: "Convergence", sans-serif;
 color: white;
+font-size: 0.8rem;
+margin-top: 20px;
+margin-left: 10px;
 }
-
-input {
-height: 40px;
-border-radius: 10px;
-border: none;
-padding-left: 10px;
-
-}
-
-#countainer {
+#countainer {  
+width:58vw;
 display: grid;
-justify-content: center;
+justify-items: center;
 }
 
+#nome,#nascimento,#cpf,#genero,.senha,#numero-casa,#cep,.confirmar-senha {
 
-.pessoais{
-display: grid;
-grid-template-columns: 350px 350px;
-margin-top: 50px;
-gap: 20px;
+margin-left: 10px;
 }
 
-#data-nasc {
-grid-column: 2;
-grid-row: 1;
+#email,#texto-endereço{
+  
+grid-column: 1/3;
+margin-left: 10px;
 
 }
-#nome{
+
+.senha,#numero-casa{
 grid-column: 1;
 
 }
 
-.login,.endereço {
-    margin-top: 50px;
-    
-}
 
-#email,#texto-endereço {
-display: block;
-width: 711px;
-}
-
-.senha,#numero-casa{
-    display: inline-block;
-width: 340px;
-margin-top: 20px;
-}
-.confirmar,#cep  {
-    margin-left: 15px;
-    width: 340px;
-}
-
-
-
-#texto-endereço,#email {
-margin-top: 10px;
-
-}
+input {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    margin-top: 20px;
+    }
 
 
 button {
-height: 40px;
-    width: 100px;
-    border-radius: 5px;
-    border: none;
-    margin-top: 60px;
-    font-weight: bold;
-    color: white;
+    height: 40px;
+        width: 100px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 60px;
+        font-weight: bold;
+        color: white;
+        margin-left: 6px;
+        margin-left: 10px;
+    }
+
+    .centralizar-botao {
+        display: flex;
+        
+        justify-content: center;
+        }
+
+    
+    #botao-escuro {
+        background: linear-gradient(to bottom,#FFC6C6 1%,#f3015a);
+    
+    }
+    
+    #botao-claro {
+        background: linear-gradient(to bottom,#fab8b8 1%,#fd307b);
+    
+    }
+
+    #botao-escuro:hover {
+        background: linear-gradient(to bottom,#FFC6C6 1%,#ca024b);
+    cursor: pointer;
+    }
+    
+    #botao-claro:hover {
+        background: linear-gradient(to bottom,#FFC6C6 1%,#fd1268);
+    cursor: pointer;
+    }
+
+    @media (max-width:628px) {
+       
+
+            #nome,#nascimento,#cpf,#genero,.senha,#numero-casa,#cep,.confirmar-senha {
+             width: 25.5vw;
+                margin-left: 10px;
+                }
+                
+                
+    }
+
+
+
+    @media (max-height:666px) {
+       
+        #geral {
+            display: grid;
+            justify-items: center;
+          
+        
+        }
+        
+        body {
+            background: linear-gradient(to left,#FC6975,#FC6975);
+
+        }
+      
+          
 }
-
-.centralizar-botao {
-display: flex;
-gap: 40px;
-justify-content: center;
-}
-
-#botao-escuro {
-    background: linear-gradient(to bottom,#FFC6C6 1%,#f3015a);
-
-}
-
-#botao-claro {
-    background: linear-gradient(to bottom,#fab8b8 1%,#fd307b);
-
-}
-
-
-#botao-escuro:hover {
-    background: linear-gradient(to bottom,#FFC6C6 1%,#ca024b);
-cursor: pointer;
-}
-
-#botao-claro:hover {
-    background: linear-gradient(to bottom,#FFC6C6 1%,#fd1268);
-cursor: pointer;
-}
+    
