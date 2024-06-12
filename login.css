@@ -44,12 +44,12 @@ margin-right: 20px;
 
 #email {
 margin-top: 20px;
-
+max-width: 40vw;
 }
 
 #senha {
 margin-top: 15px;
-
+max-width: 40vw;
 }
 span {
 font-size: 0.9rem;
@@ -130,8 +130,6 @@ color: white;
 font-size: 3rem;
 }
 
-
-
 #infos-cadastro{
 font-size: 0.7rem;
 justify-items: center;
@@ -159,8 +157,6 @@ margin-bottom: 18px;
 .mudarParacadastro{
     text-decoration: none;
     color: white;
-    
-
 }
 
 p{
