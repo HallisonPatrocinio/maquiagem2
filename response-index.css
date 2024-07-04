@@ -31,6 +31,8 @@ position: relative;
  
     display: grid;
     grid-template-columns: 80px 1fr 1fr 1fr ;
+    justify-items: start;
+    align-items: center;
     }
     
 
