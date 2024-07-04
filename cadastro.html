@@ -22,26 +22,36 @@
 
 <div class="dados pessoais">
     <h2>Dados pessoais</h2><h2 id="data-nasc">Data de nascimento</h2>
-<input type="text" name="" id="nome" placeholder="Nome completo" required>
-<input type="date" name="" id="nascimento">
+<input class="clear" type="text" name="" id="nome" placeholder="Nome completo" required>
+<input class="clear" type="date" name="" id="nascimento">
 
-<input type="number" name="" id="cpf" placeholder="CPF"required>
-<input type="text" name="" id="genero" placeholder="Gênero"required>
+<input class="clear" type="number" name="" id="cpf" placeholder="CPF"required>
+
+<form>
+   
+    <input list="generos" name="genero" id="genero" placeholder="Gênero"required>
+    <datalist id="generos">
+        <option value="Masculino">
+        <option value="Feminino">
+        
+    </datalist>
+</form>
+
 
 </div>
 
 <div class="dados login">
     <h2 class="teste">Dados de login</h2>
-    <input type="email" name="" id="email" placeholder="E-mail"required>
-    <input type="password" name="" class="senha" placeholder="Senha"required>
-    <input type="password" name="" class="confirmar-senha" placeholder="Confirmar senha"required>
+    <input class="clear" type="email" name="" id="email" placeholder="E-mail"required>
+    <input type="password" name="" class="senha clear" placeholder="Senha"required>
+    <input type="password" name="" class="confirmar-senha clear" placeholder="Confirmar senha"required >
 </div>
 
 <div class="dados endereço">
     <h2>Endereço</h2>
-    <input type="text" name="" id="texto-endereço" placeholder="Endereço"required>
-    <input type="number" name="" id="numero-casa" placeholder="Número"required>
-    <input type="number" name="" id="cep" placeholder="CEP"required>
+    <input class="clear" type="text" name="" id="texto-endereço" placeholder="Endereço"required>
+    <input class="clear" type="number" name="" id="numero-casa" placeholder="Número"required>
+    <input class="clear" type="number" name="" id="cep" placeholder="CEP"required>
 
 </div>
 
@@ -52,4 +62,5 @@
     </div>
 </div>
 </body>
+<script src="cadastro.js"></script>
 </html>

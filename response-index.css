@@ -1,0 +1,135 @@
+@media (max-width:960px) {
+.titulo-categoria {
+font-size: 1.5rem;
+
+}
+
+}
+@media (max-width:830px) {
+.categoria {
+margin-left: 10px;
+z-index: 1;
+position: relative;
+
+}
+
+
+.logo {
+    position: relative;
+    height:60px;
+    
+    z-index: 1;
+    }
+
+
+}
+
+
+@media (max-width:730px) {
+
+    header {
+ 
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1fr ;
+    
+    
+    
+    }
+    
+
+    h4 {
+font-size: 1.5rem;
+
+    }
+
+.bandeiras {
+height: 30px;
+
+}
+
+.opçoes-pagamento li, .opçoes-contato li,.opçoes-contato li a {
+font-size: 1.2rem;
+
+}
+.opçoes-itens {
+display: none;
+
+}
+
+.logo {
+position: relative;
+right: 80px;
+grid-column: 2;
+margin-left: 40px;
+}
+
+.svg-menu {
+display: block;
+margin-bottom: 50px;
+margin-left: 10px;
+color: #000;
+position: fixed;
+top: 15px;
+}
+
+.svg-menu:hover {
+cursor: pointer;
+
+}
+
+
+.opçoes-menu-hamurguer.ativo {
+    background-color: #f9a3a9;
+    display: grid;
+    width: 90px;
+    height: 170px;
+    z-index: 200;
+    position: relative;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgb(66, 66, 66);
+    
+    }
+    
+    .log-cadastro {
+grid-column: 4;
+grid-row: 1;
+    }
+    .opçoes-menu-hamurguer li {
+    padding: 10px;
+        
+        }
+        .mobile {
+            display: grid;
+           grid-template-rows: 50px 1fr;
+           margin-top:50px;
+           background-color: #f9a3a9;
+           margin-left: 10px;
+           border-radius: 4px;
+           }
+}
+
+
+@media (max-width:630px) {
+.conteiner {
+    grid-template-columns: 120px 1fr;
+
+}
+
+}
+
+@media (max-width:614px) {
+.produtos {
+justify-content: center;
+
+}
+.opçoes-pagamento li, .opçoes-contato li,.opçoes-contato li a {
+    font-size: 1rem;
+    
+    }
+
+    h4 {
+font-size: 1.2rem;
+
+    }
+}
