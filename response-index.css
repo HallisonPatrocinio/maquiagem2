@@ -1,24 +1,25 @@
 @media (max-width:960px) {
-.titulo-categoria {
-font-size: 1.5rem;
+    .titulo-categoria {
+        font-size: 1.5rem;
+
+    }
 
 }
 
-}
 @media (max-width:830px) {
-.categoria {
-margin-left: 10px;
-z-index: 1;
-position: relative;
+    .categoria {
+        margin-left: 10px;
+        z-index: 1;
+        position: relative;
 
-}
+    }
 
 
-.logo {
-    position: relative;
-    height:60px;
-    
-    z-index: 1;
+    .logo {
+        position: relative;
+        height: 60px;
+
+        z-index: 1;
     }
 
 
@@ -28,107 +29,146 @@ position: relative;
 @media (max-width:730px) {
 
     header {
- 
-    display: grid;
-    grid-template-columns: 80px 1fr 1fr 1fr ;
-    justify-items: start;
-    align-items: center;
+
+        display: grid;
+        grid-template-columns: 80px 1fr 1fr 1fr;
+        justify-items: start;
+        align-items: center;
     }
-    
+
 
     h4 {
-font-size: 1.5rem;
+        font-size: 1.5rem;
 
     }
 
-.bandeiras {
-height: 30px;
+    .bandeiras {
+        height: 30px;
 
-}
-
-.opçoes-pagamento li, .opçoes-contato li,.opçoes-contato li a {
-font-size: 1.2rem;
-
-}
-.opçoes-itens {
-display: none;
-
-}
-
-.logo {
-position: relative;
-right: 80px;
-grid-column: 2;
-margin-left: 40px;
-}
-
-.svg-menu {
-display: block;
-margin-bottom: 50px;
-margin-left: 10px;
-color: #000;
-position: fixed;
-top: 15px;
-}
-
-.svg-menu:hover {
-cursor: pointer;
-
-}
-
-
-.opçoes-menu-hamurguer.ativo {
-    background-color: #f9a3a9;
-    display: grid;
-    width: 120px;
-    height: 170px;
-    z-index: 200;
-    position: relative;
-    align-items: center;
-    border-radius: 4px;
-    border: 1px solid rgb(66, 66, 66);
-    
     }
-    
+
+    .opçoes-pagamento li,
+    .opçoes-contato li,
+    .opçoes-contato li a {
+        font-size: 1.2rem;
+
+    }
+
+    .opçoes-itens {
+        display: none;
+
+    }
+
+    .logo {
+        position: relative;
+        right: 80px;
+        grid-column: 2;
+        margin-left: 40px;
+    }
+
+    .svg-menu {
+        display: block;
+        margin-bottom: 50px;
+        margin-left: 10px;
+        color: #000;
+        position: fixed;
+        top: 15px;
+    }
+
+    .svg-menu:hover {
+        cursor: pointer;
+
+    }
+
+
+    .opçoes-menu-hamurguer.ativo {
+        background-color: #f9a3a9;
+        display: grid;
+        width: 120px;
+        height: 170px;
+        z-index: 200;
+        position: relative;
+        align-items: center;
+        border-radius: 4px;
+        border: 1px solid rgb(66, 66, 66);
+        color: #ad001dd8;
+    }
+
+    .opçoes-menu-hamurguer li::after {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 0%;
+        background-color: black;
+        position: relative;
+
+    }
+
+    .opçoes-menu-hamurguer li:hover::after {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 75%;
+        background-color: #8a0219d8;
+        position: relative;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .opçoes-menu-hamurguer:hover {
+        cursor: pointer;
+
+    }
+
+
     .log-cadastro {
-grid-column: 4;
-grid-row: 1;
+        grid-column: 4;
+        grid-row: 1;
     }
+
     .opçoes-menu-hamurguer li {
-    padding: 10px;
-        
-        }
-        .mobile {
-            display: grid;
-           grid-template-rows: 50px 1fr;
-           margin-top:50px;
-           
-           margin-left: 10px;
-           border-radius: 4px;
-           }
+        padding: 10px;
+
+    }
+
+    .mobile {
+        display: grid;
+        grid-template-rows: 50px 1fr;
+        margin-top: 50px;
+
+        margin-left: 10px;
+        border-radius: 4px;
+    }
 }
 
 
 @media (max-width:630px) {
-.conteiner {
-    grid-template-columns: 120px 1fr;
+    .conteiner {
+        grid-template-columns: 120px 1fr;
+
+    }
+footer {
+gap: 20px;
 
 }
 
 }
 
 @media (max-width:614px) {
-.produtos {
-justify-content: center;
+    .produtos {
+        justify-content: center;
 
-}
-.opçoes-pagamento li, .opçoes-contato li,.opçoes-contato li a {
-    font-size: 1rem;
-    
+    }
+
+    .opçoes-pagamento li,
+    .opçoes-contato li,
+    .opçoes-contato li a {
+        font-size: 1rem;
+
     }
 
     h4 {
-font-size: 1.2rem;
+        font-size: 1.2rem;
 
     }
 }
