@@ -80,7 +80,7 @@ cursor: pointer;
 .opçoes-menu-hamurguer.ativo {
     background-color: #f9a3a9;
     display: grid;
-    width: 90px;
+    width: 120px;
     height: 170px;
     z-index: 200;
     position: relative;
