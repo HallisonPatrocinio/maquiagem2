@@ -26,6 +26,11 @@ height:60px;
 grid-column: 1;
 z-index: 1;
 }
+
+.direcionar {
+    grid-column: 1;
+
+}
 .opçoes-itens {
 display: flex;
 list-style: none;
@@ -257,19 +262,23 @@ display: none;
         position: relative;
     }
     .carousel-slide {
-       
+       display: grid;
         transition: transform 0.5s ease-in-out;
         width: auto;
+        height: 140px;
+        align-items: center;
+    justify-content: center;
     }
     .carousel-slide img {
-      width: 100%;
-        border: 2px solid #ddd;
+        height: auto;
         border-radius: 10px;
+        justify-content: center;
+        display: none;
     }
 
     .carousel-slide img.ativo {
-display: none;
 
+display: grid;
     }
     .prevBtn, .nextBtn {
         position: absolute;

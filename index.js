@@ -55,25 +55,33 @@ let produtos = [{
     
     let inicialIndex = 0;
     
-    function nextslide() {
-        slides.forEach((img, index) => {
-
-            console.log(index)
-            if (index === inicialIndex) {
-                img.classList.add("ativo");
+    function mostrarSlide(index) {
+        slides.forEach((foto, i) => {
+            if (i === index) {
+                foto.classList.add("ativo");
             } else {
-                img.classList.remove("ativo");
+                foto.classList.remove("ativo");
             }
         });
-    
-        // Atualiza o inicialIndex para o próximo slide
-        inicialIndex = (inicialIndex + 1) % slides.length;
     }
     
-    setaEsquerda.addEventListener("click", nextslide);
-
-
+    function mudarEsquerda() {
+        inicialIndex = (inicialIndex - 1 + slides.length) % slides.length;
+        mostrarSlide(inicialIndex);
+    }
     
+    function mudarDireita() {
+        inicialIndex = (inicialIndex + 1) % slides.length;
+        mostrarSlide(inicialIndex);
+    }
+    
+    setaEsquerda.addEventListener("click", mudarEsquerda);
+    setaDireita.addEventListener("click", mudarDireita);
+    
+    // Mostrar o slide inicial
+    mostrarSlide(inicialIndex);
+   
+
 
 /////////////////evento ao click menu hamburguer///////////////
 let menuHamburguer = document.querySelector(".svg-menu")

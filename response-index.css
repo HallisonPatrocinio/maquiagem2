@@ -67,7 +67,10 @@
         margin-left: 40px;
         grid-row: 1;
     }
-
+.direcionar {
+grid-row: 1;
+    grid-column: 2;
+}
     .svg-menu {
         display: block;
         margin-bottom: 50px;
