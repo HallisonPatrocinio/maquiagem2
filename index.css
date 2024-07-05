@@ -96,6 +96,12 @@ margin-top: 20px;
 
 }
 
+
+.opçoes-lateral li:hover {
+color: #707070;
+cursor: pointer;
+}
+
 span {
 font-weight: bold;
 color: #189304;
@@ -251,7 +257,7 @@ display: none;
         position: relative;
     }
     .carousel-slide {
-        display: flex;
+       
         transition: transform 0.5s ease-in-out;
         width: auto;
     }

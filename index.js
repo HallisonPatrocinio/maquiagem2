@@ -79,17 +79,36 @@ let produtos = [{
 let menuHamburguer = document.querySelector(".svg-menu")
 let opçoesMenu = document.querySelectorAll(".opçoes-menu-hamurguer")
 
-
-
-
 function showMenu () {
+
 opçoesMenu.forEach((itens)=>{
 itens.classList.toggle("ativo")
 
-})
+function removerMenu(event) {
 
+
+if (event.target.classList.contains('svg-menu') || event.target.classList.contains('opçoes-menu-hamurguer') || event.target.classList.contains('list-menu-hamburguer')) {
+
+}
+
+else {
+    itens.classList.remove("ativo")
 
 }
 
 
+}
+window.addEventListener("click",removerMenu)
+}
+)
+
+
+}
+
 menuHamburguer.addEventListener("click",showMenu)
+
+
+
+
+
+
