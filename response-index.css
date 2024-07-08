@@ -22,7 +22,9 @@
         z-index: 1;
     }
 
+.log-cadastro {
 
+}
 }
 
 
@@ -104,16 +106,6 @@ grid-row: 1;
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .opçoes-menu-hamurguer li::after {
-        content: "";
-        display: block;
-        height: 1px;
-        width: 0%;
-        background-color: black;
-        position: relative;
-
-    }
-
     .opçoes-menu-hamurguer li:hover::after {
         content: "";
         display: block;
@@ -134,10 +126,10 @@ grid-row: 1;
     .log-cadastro {
         grid-column: 4;
         grid-row: 1;
-        flex-wrap: wrap;
-        width: 200px;
+  
+       
         position: relative;
-        left: 40px;
+      
     }
 
     .opçoes-menu-hamurguer li {
@@ -186,4 +178,18 @@ grid-row: 1;
         font-size: 1.2rem;
 
     }
+
+.log-cadastro {
+display: flex;
+flex-wrap: wrap;
+
+}
+}
+
+@media (max-width:422px) {
+.log-cadastro {
+grid-column: 3;
+
+}
+
 }
