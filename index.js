@@ -21,7 +21,56 @@ let produtos = [{
         Preço: 25.90,
           imagem:'img/batom.webp'
     
-    }
+    },
+    {
+        prod:1,
+        Nome: 'Ramona',
+        Descrição:'Batom vermelho',
+        Preço: 25.90,
+        imagem:'img/batom.webp'
+        
+        },
+        {
+            prod:2,
+            Nome: 'Ramona',
+            Descrição:'Batom vermelho',
+            Preço: 25.90,
+          imagem:'img/batom.webp'
+        },
+        
+        {
+            prod:3,
+            Nome: 'Ramona',
+            Descrição:'Batom vermelho',
+            Preço: 25.90,
+              imagem:'img/batom.webp'
+        
+        },
+        {
+            prod:1,
+            Nome: 'Ramona',
+            Descrição:'Batom vermelho',
+            Preço: 25.90,
+            imagem:'img/batom.webp'
+            
+            },
+            {
+                prod:2,
+                Nome: 'Ramona',
+                Descrição:'Batom vermelho',
+                Preço: 25.90,
+              imagem:'img/batom.webp'
+            },
+            
+            {
+                prod:3,
+                Nome: 'Ramona',
+                Descrição:'Batom vermelho',
+                Preço: 25.90,
+                  imagem:'img/batom.webp'
+            
+            }
+
     ]
     
     produtos.forEach((produto)=>{
