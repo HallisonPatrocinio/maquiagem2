@@ -189,7 +189,15 @@ grid-row: 1;
 
     }
 
-    header {
-        
-    }
+
+}
+
+
+@media (max-width:475px) {
+
+.log-cadastro {
+left: 20px;
+
+}
+
 }
