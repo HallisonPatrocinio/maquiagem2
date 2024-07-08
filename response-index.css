@@ -22,9 +22,7 @@
         z-index: 1;
     }
 
-.log-cadastro {
 
-}
 }
 
 
@@ -168,7 +166,12 @@ grid-row: 1;
         gap: 20px;
 
     }
-
+.log-cadastro {
+font-size: 0.9rem;
+max-width: 70px;
+right: 50px;
+display: flex;
+}
 }
 
 @media (max-width:614px) {
@@ -176,6 +179,8 @@ grid-row: 1;
         justify-content: center;
 
     }
+
+
 
     .opçoes-pagamento li,
     .opçoes-contato li,
@@ -201,3 +206,12 @@ left: 20px;
 }
 
 }
+
+
+@media (max-width:475px) {
+
+    .log-cadastro {
+left: 10px;
+    }
+    
+    }
