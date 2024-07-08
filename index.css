@@ -3,10 +3,11 @@ padding: 0px;
 margin: 0px;
 
 }
+
 body {
 overflow-x: hidden;
 
-} 
+}
 
 header {
     height: 100px;
@@ -15,7 +16,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr ;
 align-items: center;
 justify-items: center;
-width: 100vw;
+
 }
 
 .svg-menu {
@@ -49,10 +50,9 @@ font-weight: 100;
 
 .log-cadastro {
 margin-bottom: 50px;
-gap: 10px;
-display: flex;
+margin-right: 10px;
 font-family: Arial, Helvetica, sans-serif;
-flex-wrap: wrap;
+
 }
 
 .login-cadastro:hover {
@@ -68,8 +68,7 @@ list-style: none;
 text-decoration: none;
 color: white;
 font-weight: bold;
-display: flex;
-flex-wrap: wrap;
+margin-right: 20px;
 }
 
 .conteiner {
